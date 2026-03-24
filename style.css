@@ -1,0 +1,117 @@
+
+.navbar {
+    background-color: #fdfdfd;
+    padding: 0.9rem 1.5rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .navbar-brand {
+    font-size: 1.7rem;
+    color: #0080ff;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #000;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #555;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #212529; 
+  }
+  
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(33, 37, 41, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+ 
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  }
+  
+  .card-title {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-outline-dark {
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  .hero-box {
+    background: linear-gradient(to right, #ffffff, #f9f9f9);
+    border-left: 6px solid #000;
+    max-width: 900px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .hero-box h1 {
+    font-size: 2.5rem;
+    color: #111;
+  }
+  
+  .hero-box p {
+    font-size: 1.25rem;
+    color: #555;
+  }
+  #curso img {
+    transition: transform 0.3s ease;
+  }
+  #curso img:hover {
+    transform: scale(1.02);
+  }
